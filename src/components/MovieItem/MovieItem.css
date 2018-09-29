@@ -6,7 +6,7 @@
     margin: 15px;
 }
 
-p {
+.movie__title {
     overflow: hidden;
     white-space:nowrap;
     text-overflow:ellipsis;  
@@ -17,7 +17,7 @@ p {
     text-align: center;
 }
 
-img {
+.movie__poster {
     height: 270px;
     width: 100%;
 }
