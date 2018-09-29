@@ -1,0 +1,17 @@
+
+label {
+    font-weight: 900;
+}
+
+movie__img {
+    float:left;
+    margin-right: 15px;
+}
+
+.details__description {
+    display: flex;
+}
+
+.movie__details {
+    padding: 15px;
+}
