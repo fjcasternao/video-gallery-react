@@ -1,0 +1,13 @@
+.input__wrapper input {
+    text-align:center;
+    position: relative;
+    width: 40%;
+    display: block;
+    margin : 0 auto;
+    height: 50px;
+    font-size: 20px;
+
+    background-color: black;
+    border: 1px solid grey;
+    color: white;
+}
