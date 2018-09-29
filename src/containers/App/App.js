@@ -5,7 +5,6 @@ import HomePage from '../HomePage/HomePage';
 import DetailsPage from '../DetailsPage/DetailsPage';
 import NotFoundPage from '../NotFoundPage/NotFoundPage';
 
-import logo from '../../logo.svg';
 import './App.css';
 
 class App extends Component {

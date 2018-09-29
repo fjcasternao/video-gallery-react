@@ -8,6 +8,7 @@ export default class Header extends React.Component {
         <img
           className="header__image"
           src="https://www.redpoints.com/wp-content/uploads/2017/03/red-points.svg"
+          alt=""
         />
         <span className="header__text"> {this.props.text}</span>
       </h1>
