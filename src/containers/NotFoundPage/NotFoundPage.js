@@ -1,10 +1,15 @@
 import React from 'react';
 
+import Header from '../../components/Header/Header';
+
 class NotFoundPage extends React.PureComponent {
     render() {
         return (
             <div>
-                Not Found Page
+                <Header text="Technical interview: Movie Gallery" />
+                <div>
+                    Not Found Page
+                </div>
             </div>
         );
     }
