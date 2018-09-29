@@ -34,7 +34,7 @@ class HomePage extends React.PureComponent {
                     {
                         this.state.results.map(movie => {
                             return (
-                                <MovieItem {...movie}/>
+                                <MovieItem {...movie} key={movie.id}/>
                             )
                         })
                     }
