@@ -21,7 +21,7 @@ class HomePage extends React.PureComponent {
         axios.get(`${API_URL}?api_key=${API_KEY}`)
             .then(({ data }) => {
                 this.setState({
-                    results: data.results                          
+                    results: data.results
                 })
             })
     }
@@ -31,11 +31,15 @@ class HomePage extends React.PureComponent {
             <div>
                 <Header text="Technical interview: Movie Gallery" />
                 <ul>
-                {
-                    this.state.results.map(movie => {
-                        return <li>{movie.title}</li>
-                    })
-                }
+                    {
+                        this.state.results.map(movie => {
+                            return (
+                                <li>
+                                    <a href={`/movie/${movie.id}`}>{movie.title}</a>
+                                </li>
+                            )
+                        })
+                    }
                 </ul>
             </div>
         );
